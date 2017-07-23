@@ -14,7 +14,12 @@ import {map} from './map';
 
 const browser = {};
 
-function detect( ua = navigator.userAgent ) {
+function detect( ua = '' ) {
+
+    if (!ua && ('undefined' !== typeof(navigator)) ) {
+        ua = navigator.userAgent;
+    }
+    // ua = '';
     ua = ua.toLowerCase();
 
     let match = [];
@@ -46,13 +51,14 @@ function detect( ua = navigator.userAgent ) {
         browser: match[ 5 ] || match[ 3 ] || match[ 1 ] || '',
         version: match[ 4 ] || match[ 2 ] || '0',
         versionNumber: match[ 4 ] || match[ 2 ] || '0',
-        platform: platformMatch[ 0 ] || ''
+        platform: platformMatch[ 0 ] || '',
     };
 
     if ( matched.browser ) {
         browser[ `is${mapItem.key}` ] = true;
         browser.version = matched.version;
         browser.versionNumber = parseInt(matched.versionNumber, 10);
+        matched.name = mapItem.key;
     }
 
     if ( matched.platform ) {
@@ -79,7 +85,7 @@ function detect( ua = navigator.userAgent ) {
         browser[android] = true;
     }
 
-    browser.name = matched.browser;
+    browser.name = matched.name;
     browser.platform = matched.platform;
     return browser;
 }

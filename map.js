@@ -11,7 +11,7 @@ export const map = [{
     key: 'Alipay',
     reg: /(alipayclient|aliapp\(AP)\/([\w.]+)/
 }, {
-    key: 'Tabao',
+    key: 'Taobao',
     reg: /(aliapp\(tb)\/([\w.]+)/
 }, {
     key: 'Weibo',
@@ -26,7 +26,7 @@ export const map = [{
     key: 'QZone',
     reg: /(qzone)\/.*_qz_([\d.]+)/
 }, {
-    key: 'QQBrowser ',
+    key: 'QQBrowser',
     reg: /(qqbrowser)\/([\w.]+)/
 }, {
     key: 'UC',
