@@ -1,0 +1,28 @@
+{
+  "name": "ua-detect",
+  "version": "0.0.1",
+  "description": "browser useragent detect lib",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notejs/ua-detect.git"
+  },
+  "keywords": [
+    "browser",
+    "useragent",
+    "detect",
+    "ua"
+  ],
+  "author": "Linus Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notejs/ua-detect/issues"
+  },
+  "homepage": "https://github.com/notejs/ua-detect#readme"
+}
