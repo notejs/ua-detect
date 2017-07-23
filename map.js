@@ -37,4 +37,40 @@ export const map = [{
 }, {
     key: 'Sogou',
     reg: /(sogou[\w]*browser)\/([\w.]+)/
+}, {
+    key: 'Edge',
+    reg: /(edge)\/([\w.]+)/
+}, {
+    key: 'Opera',
+    reg: /(opr)[\/]([\w.]+)/
+}, {
+    key: 'Chrome',
+    reg: /(chrome)[ \/]([\w.]+)/
+}, {
+    key: 'IEMobile',
+    reg: /(iemobile)[\/]([\w.]+)/
+}, {
+    key: 'Safari',
+    reg: /(version)(applewebkit)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/
+}, {
+    key: 'Safari',
+    reg: /(webkit)[ \/]([\w.]+).*(version)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/
+}, {
+    key: 'Firefox',
+    reg: /(firefox)\/([\w.]+)/
+},{
+    key: 'Webkit',
+    reg: /(webkit)[ \/]([\w.]+)/
+}, {
+    key: 'Opera',
+    reg: /(opera)(?:.*version|)[ \/]([\w.]+)/
+}, {
+    key: 'IE',
+    reg: /(msie) ([\w.]+)/
+}, {
+    key: 'IE',
+    reg: /trident.*(rv)(?::| )([\w.]+)/
+}, {
+    key: 'IE',
+    reg: /compatible.*(mozilla)(?:.*? rv:([\w.]+)|)/
 }];
