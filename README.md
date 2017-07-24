@@ -14,6 +14,21 @@ npm install ua-detect
 
 ```javascript
 import { browser } from 'ua-detect';
+
+console.log(browser);
+```
+获得类似如下结果
+```javascript
+{
+  "isChrome": true,
+  "version": "59.0.3071.115",
+  "versionNumber": 59,
+  "win": true,
+  "isDesktop": true,
+  "isWebkit": true,
+  "name": "Chrome",
+  "platform": "win"
+}
 ```
 
 ## 如何提需求（如果不包含你想要的检测）
