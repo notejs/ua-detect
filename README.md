@@ -4,7 +4,9 @@
 browser or webview useragent detect
 
 ## 目标
-面向国内前端技术人员，提供top 100的app ua 检测。不得不说有些app是不会提供的，如XX输入法等这些不会显示web页面的app。
+面向国内前端技术人员，提供top 100的app ua 检测。
+不得不说有些app是不会提供的，如XX输入法等这些不会显示web页面的app。
+另外有一些ua不是很方便找到也暂时不会提供，欢迎大家帮忙提供。
 欢迎大家踊跃贡献ua和帮忙测试。
 
 ## 使用

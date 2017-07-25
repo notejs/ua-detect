@@ -169,6 +169,87 @@ export default [{
         version: '14.14393',
         isDesktop: true
     }
-}];
+}, {
+    // Opera
+    ua : 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; MI MAX Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/12.6.0.5 Mobi',
+    expect : {
+        isOpera: true,
+        version: '12.6.0.5',
+        isMobile: true
+    }
+}, {
+    // 携程
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36_eb64__Ctrip_CtripWireless_7.5.2',
+    expect : {
+        isCtrip: true,
+        version: '7.5.2',
+        isMobile: true
+    }
+}, {
+    // 蜻蜓FM
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 kdtUnion_iting/6.3.9 iting/6.3.9',
+    expect : {
+        isQingTingFM: true,
+        version: '6.3.9',
+        isMobile: true
+    }
+}, {
+    // 天天快报
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 qnreading/3.2.0',
+    expect : {
+        isTianTianKuaiBao: true,
+        version: '3.2.0',
+        isMobile: true
+    }
+}, {
+    // 今日头条
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 JsSdk/2 NewsArticle/6.2.7 NetType/wifi',
+    expect : {
+        isTouTiao: true,
+        version: '6.2.7',
+        isMobile: true
+    }
+}, {
+    // 搜狐新闻
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 JsKit/1.0 (Android) SohuNews/5.9.2 BuildCode/125',
+    expect : {
+        isSohuNews: true,
+        version: '5.9.2',
+        isMobile: true
+    }
+}, {
+    // 陌陌
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 momoWebView/8.0.1 android/1436(MI MAX;android 6.0.1;zh_CN;23;netType/1)',
+    expect : {
+        isMoMo: true,
+        version: '8.0.1',
+        isMobile: true
+    }
+}, {
+    // 手机百度
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/7.9 baiduboxapp/9.0.0.10 (Baidu; P1 6.0.1)',
+    expect : {
+        isBaidu: true,
+        version: '9.0.0.10',
+        isMobile: true
+    }
+}, {
+    // 猎豹
+    ua : 'Mozilla/5.0 (Linux; Android 6.0.1; MI MAX Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 Mobile Safari/537.36 LieBaoFast/4.46.3',
+    expect : {
+        isLiebao: true,
+        version: '4.46.3',
+        isMobile: true
+    }
+}, {
+    // 小米
+    ua : 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; MI MAX Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.146 Mobile Safari/537.36 XiaoMi/MiuiBrowser/8.8.7',
+    expect : {
+        isXiaomi: true,
+        version: '8.8.7',
+        isMobile: true
+    }
+}
 
-// 土豆
+
+];

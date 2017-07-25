@@ -8,14 +8,14 @@ export const map = [{
     key: 'DingDing',
     reg: /(aliapp\(dingtalk)\/([\w.]+)/
 }, {
-    key: 'Alipay',
-    reg: /(alipayclient|aliapp\(AP)\/([\w.]+)/
-}, {
     key: 'Taobao',
     reg: /(aliapp\(tb)\/([\w.]+)/
 }, {
     key: 'Weibo',
     reg: /(weibo).*weibo__([\d.]+)/
+}, {
+    key: 'Alipay',
+    reg: /(alipayclient|aliapp\(AP)\/([\w.]+)/
 }, {
     key: 'Youku',
     reg: /(youku)\/([\w.]+)/
@@ -25,6 +25,33 @@ export const map = [{
 }, {
     key: 'QZone',
     reg: /(qzone)\/.*_qz_([\d.]+)/
+}, {
+    key: 'MoMo',
+    reg: /(momowebview)\/([\w.]+)/
+}, {
+    key: 'TianTianKuaiBao',
+    reg: /(qnreading)\/([\w.]+)/
+}, {
+    key: 'QingTingFM',
+    reg: /(kdtunion_iting|iting)\/([\w.]+)/
+}, {
+    key: 'Ctrip',
+    reg: /(ctrip)[\D]*([\d.]+)/
+}, {
+    key: 'SohuNews',
+    reg: /(sohunews)\/([\w.]+)/
+}, {
+    key: 'TouTiao',
+    reg: /(newsarticle)\/([\w.]+)/
+}, {
+    key: 'Xiaomi',
+    reg: /(miuibrowser)\/([\w.]+)/
+}, {
+    key: 'Baidu',
+    reg: /(baiduboxapp)\/([\w.]+)/
+}, {
+    key: 'Liebao',
+    reg: /(liebao[^/]*)\/([\w.]+)/
 }, {
     key: 'QQBrowser',
     reg: /(qqbrowser)\/([\w.]+)/
