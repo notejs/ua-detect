@@ -1,6 +1,7 @@
-## 正在开发中……
+# Deprecated
+> 由于一些不便透漏的原因，该项目不得不废弃。请勿使用。以后方便的时机可能会重启。
 
-# ua-detect
+## ua-detect
 browser or webview useragent detect
 
 ## 目标
